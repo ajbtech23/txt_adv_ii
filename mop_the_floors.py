@@ -18,6 +18,11 @@ def prettier_still(arr):
         print(f"{i + 1}. ==> {arr[i]}")
     print("\nThey almost had me but I hustled my way through...\n")
 
+def prettiest_print(arr):
+    for index, element in enumerate(arr, 1):
+        print(f"{index}... {element}")
+    print("\nNikes on my feet keep my cypher complete :D\n")
+
 
 while more_items:
     user_input = input("Add something to your shopping basket:\n")
@@ -40,3 +45,5 @@ print("")
 prettier_print(favorites)
 print("")
 prettier_still(favorites)
+print("")
+prettiest_print(favorites)
